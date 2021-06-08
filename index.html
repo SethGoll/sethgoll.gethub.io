@@ -18,6 +18,7 @@
                 nav {
                     background: rgb(161, 158, 158);
                     margin: 0 auto;
+                    margin-bottom: 20px;
                     display: flex;
                     padding: 10px;
                 }
@@ -42,7 +43,6 @@
             
                 /* main container area beneath menu */
                 main {
-                    background: rgb(161, 158, 158);
                     display: flex;
                 }
                 .sidebar {
@@ -57,7 +57,7 @@
                     padding: 15px;
                 }
                 #interests {
-                    border: 4px silver ridge;
+                    border: 4px rgb(114, 114, 114) ridge;
                     padding: 8px;
                 }
                 h2, h3 {
@@ -70,26 +70,29 @@
             <div>
                 <nav>
                     <h1>Seth's Magical Website</h1>
-                    <ul>
-                        <li>
+                    <ul id="nav-ul">
+                        <li class="nav-li">
                             <a href="index.html"> Casa </a>
                         </li>
-                        <li>
+                        <li class="nav-li">
                             <a href="portfolio.html"> Portfolio in spanish </a>
                         </li>
                     </ul>
                     <main>
                         <!--Sidebar Section-->
-                        <div>
-                            <img src="https://www.wattagnet.com/ext/resources/Images-by-month-year/19_07/poultry/white-egg-white-bkgrnd.jpg?1562866436" alt="">
+                        <div class="sidebar-img">
+                            <img class="sidebar-img" src="https://www.wattagnet.com/ext/resources/Images-by-month-year/19_07/poultry/white-egg-white-bkgrnd.jpg?1562866436" alt="">
                         </div>
                         <!-- Content Section-->
-                        <div>
+                        <div class="content"> 
                             <h2>Seth Goll</h2>
                             <p>Omniscient God </p>
                             
                             <!-- Interest Section-->
-                            <div>
+                            <div id="interests">
+                                <div class="sidebar">
+
+                                </div>
                                 <h3>
                                     Interest
                                 </h3>
@@ -106,3 +109,4 @@
             </div>
     </body>
 </html>
+
